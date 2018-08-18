@@ -30,7 +30,7 @@ public class BaseTest {
 	public void LauchApp()
 	{
 		
-		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Selenium_Software\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\Utilities\\chromedriver.exe");
 		driver=new ChromeDriver();		
 		driver.get("http://localhost:100");
 	}
