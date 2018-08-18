@@ -19,6 +19,7 @@ public class BaseTest {
 	
 	public void createTestReport()
 	{
+		System.out.println("Hello");
 		DateFormat format=new SimpleDateFormat("yyyyMMddhhmmss");
 		Date date=new Date();
 		String datestr=format.format(date);
