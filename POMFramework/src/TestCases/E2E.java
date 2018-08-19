@@ -16,6 +16,7 @@ public class E2E extends BaseTest {
 	@BeforeClass
 	public void luanchapp()
 	{
+		
 		if(report==null)
 		{
 			createTestReport();
